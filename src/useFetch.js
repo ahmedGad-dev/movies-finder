@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "react";
-const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`
+import {useState, useEffect} from "react";
+const API_ENDPOINT = `https://www.omdbapi.com/?apikey=f3130448`
 
 //using the url params for making the function works dynamically in both cases
 const useFetch = (urlParams) =>{

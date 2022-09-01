@@ -1,6 +1,5 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React from 'react'
 import {  Link, useParams } from 'react-router-dom'
-import { API_ENDPOINT } from '../context'
 import useFetch from '../useFetch'
 const url =
   'https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png'
